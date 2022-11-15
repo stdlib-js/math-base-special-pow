@@ -50,6 +50,11 @@ where `b` is the **base** and `x` is the **exponent**.
 ## Usage
 
 ```javascript
+import pow from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pow@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-pow/tags). For example,
+
+```javascript
 import pow from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pow@v0.0.7-deno/mod.js';
 ```
 
@@ -96,7 +101,7 @@ v = pow( NaN, NaN );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
-import pow from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pow@v0.0.7-deno/mod.js';
+import pow from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pow@deno/mod.js';
 
 var b;
 var x;
