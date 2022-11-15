@@ -50,7 +50,7 @@ where `b` is the **base** and `x` is the **exponent**.
 ## Usage
 
 ```javascript
-import pow from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pow@deno/mod.js';
+import pow from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pow@v0.0.7-deno/mod.js';
 ```
 
 #### pow( base, exponent )
@@ -96,7 +96,7 @@ v = pow( NaN, NaN );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
-import pow from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pow@deno/mod.js';
+import pow from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pow@v0.0.7-deno/mod.js';
 
 var b;
 var x;
