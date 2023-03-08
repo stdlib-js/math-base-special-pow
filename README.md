@@ -30,10 +30,14 @@ The [exponential function][exponential-function] is defined as
 
 <!-- <equation class="equation" label="eq:exponential_function" align="center" raw="y = b^x" alt="Exponential function"> -->
 
-<div class="equation" align="center" data-raw-text="y = b^x" data-equation="eq:exponential_function">
+```math
+y = b^x
+```
+
+<!-- <div class="equation" align="center" data-raw-text="y = b^x" data-equation="eq:exponential_function">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@bb29798906e119fcb2af99e94b60407a270c9b32/lib/node_modules/@stdlib/math/base/special/pow/docs/img/equation_exponential_function.svg" alt="Exponential function">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -192,7 +196,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
