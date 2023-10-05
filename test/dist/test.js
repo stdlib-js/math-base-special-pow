@@ -37,27 +37,27 @@ var pow = require( './../../dist' );
 
 // FIXTURES //
 
-var squaredSmall = require( './../..xtures/julia/squared_small.json' );
-var squaredLarge = require( './../..xtures/julia/squared_large.json' );
-var cubedSmall = require( './../..xtures/julia/cubed_small.json' );
-var cubedLarge = require( './../..xtures/julia/cubed_large.json' );
-var toTheFourthSmall = require( './../..xtures/julia/to_the_fourth_small.json' );
-var toTheFourthLarge = require( './../..xtures/julia/to_the_fourth_large.json' );
-var baseNearUnitySmall = require( './../..xtures/julia/base_near_unity_small.json' );
-var baseNearUnityLarge = require( './../..xtures/julia/base_near_unity_large.json' );
-var baseNearUnityHuge = require( './../..xtures/julia/base_near_unity_huge.json' );
-var subnormalResults = require( './../..xtures/julia/subnormal_results.json' );
-var negativeExpSmallSmall = require( './../..xtures/julia/negative_exp_small_small.json' );
-var negativeExpSmallLarge = require( './../..xtures/julia/negative_exp_small_large.json' );
-var negativeExpLargeSmall = require( './../..xtures/julia/negative_exp_large_small.json' );
-var negativeExpLargeLarge = require( './../..xtures/julia/negative_exp_large_large.json' );
-var smallSmall = require( './../..xtures/julia/small_small.json' );
-var smallLarge = require( './../..xtures/julia/small_large.json' );
-var largeSmall = require( './../..xtures/julia/large_small.json' );
-var decimalDecimal = require( './../..xtures/julia/decimal_decimal.json' );
-var decimalInteger = require( './../..xtures/julia/decimal_integer.json' );
-var integerDecimal = require( './../..xtures/julia/integer_decimal.json' );
-var integerInteger = require( './../..xtures/julia/integer_integer.json' );
+var squaredSmall = require( './../fixtures/julia/squared_small.json' );
+var squaredLarge = require( './../fixtures/julia/squared_large.json' );
+var cubedSmall = require( './../fixtures/julia/cubed_small.json' );
+var cubedLarge = require( './../fixtures/julia/cubed_large.json' );
+var toTheFourthSmall = require( './../fixtures/julia/to_the_fourth_small.json' );
+var toTheFourthLarge = require( './../fixtures/julia/to_the_fourth_large.json' );
+var baseNearUnitySmall = require( './../fixtures/julia/base_near_unity_small.json' );
+var baseNearUnityLarge = require( './../fixtures/julia/base_near_unity_large.json' );
+var baseNearUnityHuge = require( './../fixtures/julia/base_near_unity_huge.json' );
+var subnormalResults = require( './../fixtures/julia/subnormal_results.json' );
+var negativeExpSmallSmall = require( './../fixtures/julia/negative_exp_small_small.json' );
+var negativeExpSmallLarge = require( './../fixtures/julia/negative_exp_small_large.json' );
+var negativeExpLargeSmall = require( './../fixtures/julia/negative_exp_large_small.json' );
+var negativeExpLargeLarge = require( './../fixtures/julia/negative_exp_large_large.json' );
+var smallSmall = require( './../fixtures/julia/small_small.json' );
+var smallLarge = require( './../fixtures/julia/small_large.json' );
+var largeSmall = require( './../fixtures/julia/large_small.json' );
+var decimalDecimal = require( './../fixtures/julia/decimal_decimal.json' );
+var decimalInteger = require( './../fixtures/julia/decimal_integer.json' );
+var integerDecimal = require( './../fixtures/julia/integer_decimal.json' );
+var integerInteger = require( './../fixtures/julia/integer_integer.json' );
 
 
 // TESTS //
