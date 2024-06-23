@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-19)
+## Unreleased (2024-06-23)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`e26363d`](https://github.com/stdlib-js/stdlib/commit/e26363d5a9df20243c6be186bbf63017517c5839) - **chore:** update package meta data [(#2439)](https://github.com/stdlib-js/stdlib/pull/2439) _(by stdlib-bot, Athan Reines)_
 -   [`4a0235a`](https://github.com/stdlib-js/stdlib/commit/4a0235a063e46d679253b6511fe7e9dbd4a9d625) - **feat:** add C implementation for `math/base/special/pow` _(by Aman Bhansali, Athan, Philipp Burckhardt)_
 -   [`41d41e9`](https://github.com/stdlib-js/stdlib/commit/41d41e959b4eaad3c631e6898e3144a4015a5458) - **test:** include trailing newlines in Julia-generated JSON fixtures _(by Philipp Burckhardt)_
 -   [`9ed7d0e`](https://github.com/stdlib-js/stdlib/commit/9ed7d0e7d57edb5ad0dfb65c944bed87d475cbf3) - **chore:** add missing trailing newlines _(by Philipp Burckhardt)_
@@ -36,10 +37,11 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Aman Bhansali
 -   Athan
+-   Athan Reines
 -   Philipp Burckhardt
 
 </section>
