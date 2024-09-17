@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2024-09-17)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`f51140f`](https://github.com/stdlib-js/stdlib/commit/f51140ffe79720148d77a5ea56e92911787a3175) - **chore:** add structured package data for `math/base/special/pow` [(#2912)](https://github.com/stdlib-js/stdlib/pull/2912) _(by Gunj Joshi)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Gunj Joshi
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.0">
 
 ## 0.3.0 (2024-07-28)
