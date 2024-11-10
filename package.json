@@ -46,6 +46,7 @@
     "@stdlib/constants-float64-high-word-significand-mask": "^0.2.2",
     "@stdlib/constants-float64-ln-two": "^0.2.2",
     "@stdlib/constants-float64-ninf": "^0.2.2",
+    "@stdlib/constants-float64-num-high-word-significand-bits": "github:stdlib-js/constants-float64-num-high-word-significand-bits#main",
     "@stdlib/constants-float64-pinf": "^0.2.2",
     "@stdlib/math-base-assert-is-infinite": "^0.2.2",
     "@stdlib/math-base-assert-is-integer": "^0.2.5",
