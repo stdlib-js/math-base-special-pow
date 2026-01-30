@@ -46,13 +46,13 @@
     "@stdlib/constants-float64-high-word-significand-mask": "^0.2.2",
     "@stdlib/constants-float64-ln-two": "^0.2.2",
     "@stdlib/constants-float64-ninf": "^0.2.2",
-    "@stdlib/constants-float64-num-high-word-significand-bits": "github:stdlib-js/constants-float64-num-high-word-significand-bits#main",
+    "@stdlib/constants-float64-num-high-word-significand-bits": "^0.1.0",
     "@stdlib/constants-float64-pinf": "^0.2.2",
     "@stdlib/math-base-assert-is-infinite": "^0.2.2",
-    "@stdlib/math-base-assert-is-integer": "^0.2.5",
+    "@stdlib/math-base-assert-is-integer": "^0.2.6",
     "@stdlib/math-base-assert-is-nan": "^0.2.2",
-    "@stdlib/math-base-assert-is-odd": "^0.3.0",
-    "@stdlib/math-base-napi-binary": "^0.3.0",
+    "@stdlib/math-base-assert-is-odd": "^0.3.1",
+    "@stdlib/math-base-napi-binary": "^0.3.1",
     "@stdlib/math-base-special-abs": "^0.2.2",
     "@stdlib/math-base-special-copysign": "^0.2.2",
     "@stdlib/math-base-special-ldexp": "^0.2.3",
@@ -62,7 +62,7 @@
     "@stdlib/number-float64-base-set-low-word": "^0.2.2",
     "@stdlib/number-float64-base-to-words": "^0.2.2",
     "@stdlib/number-uint32-base-to-int32": "^0.2.2",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
@@ -74,7 +74,7 @@
     "@stdlib/math-base-assert-is-positive-zero": "^0.2.2",
     "@stdlib/math-base-special-round": "^0.3.0",
     "@stdlib/math-base-tools-evalpoly-compile": "^0.3.0",
-    "@stdlib/math-base-tools-evalpoly-compile-c": "^0.1.1",
+    "@stdlib/math-base-tools-evalpoly-compile-c": "^0.2.1",
     "@stdlib/random-array-discrete-uniform": "^0.2.1",
     "@stdlib/random-array-uniform": "^0.2.1",
     "@stdlib/random-base-randu": "^0.2.1",
@@ -116,126 +116,6 @@
     "function",
     "number"
   ],
-  "__stdlib__": {
-    "scaffold": {
-      "$schema": "math/base@v1.0",
-      "base_alias": "pow",
-      "alias": "pow",
-      "pkg_desc": "exponential function",
-      "desc": "exponential function",
-      "short_desc": "exponential function",
-      "parameters": [
-        {
-          "name": "x",
-          "desc": "base",
-          "type": {
-            "javascript": "number",
-            "jsdoc": "number",
-            "c": "double",
-            "dtype": "float64"
-          },
-          "domain": [
-            {
-              "min": "-infinity",
-              "max": "infinity"
-            }
-          ],
-          "rand": {
-            "prng": "random/base/uniform",
-            "parameters": [
-              -10,
-              10
-            ]
-          },
-          "example_values": [
-            -1.2,
-            2,
-            -3.1,
-            4,
-            5.5,
-            100,
-            8.9,
-            3.141592653589793,
-            11.3,
-            -3.141592653589793,
-            13.5,
-            14.6,
-            -15.7,
-            16.8,
-            -17.9,
-            10,
-            -19.11,
-            20.12,
-            -21.15,
-            1
-          ]
-        },
-        {
-          "name": "y",
-          "desc": "exponent",
-          "type": {
-            "javascript": "number",
-            "jsdoc": "number",
-            "c": "double",
-            "dtype": "float64"
-          },
-          "domain": [
-            {
-              "min": "-infinity",
-              "max": "infinity"
-            }
-          ],
-          "rand": {
-            "prng": "random/base/uniform",
-            "parameters": [
-              -10,
-              10
-            ]
-          },
-          "example_values": [
-            1.2,
-            -2,
-            3,
-            -0.5,
-            0,
-            -5.6,
-            8.9,
-            -10,
-            1.5,
-            -12,
-            13.5,
-            14.6,
-            -15.7,
-            6,
-            -17,
-            18,
-            -9,
-            2.12,
-            -1.15,
-            -2
-          ]
-        }
-      ],
-      "returns": {
-        "desc": "function value",
-        "type": {
-          "javascript": "number",
-          "jsdoc": "number",
-          "c": "double",
-          "dtype": "float64"
-        }
-      },
-      "keywords": [
-        "natural",
-        "exponential",
-        "pow",
-        "power"
-      ],
-      "extra_keywords": [
-        "math.pow"
-      ]
-    }
-  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
