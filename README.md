@@ -65,7 +65,7 @@ where `b` is the **base** and `x` is the **exponent**.
 ## Usage
 
 ```javascript
-import pow from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pow@esm/index.mjs';
+import pow from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pow@v0.3.1-esm/index.mjs';
 ```
 
 #### pow( base, exponent )
@@ -116,7 +116,7 @@ v = pow( NaN, NaN );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import pow from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pow@esm/index.mjs';
+import pow from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pow@v0.3.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
