@@ -55,7 +55,7 @@
     "@stdlib/math-base-napi-binary": "^0.3.3",
     "@stdlib/math-base-special-abs": "^0.2.3",
     "@stdlib/math-base-special-copysign": "^0.2.3",
-    "@stdlib/math-base-special-ldexp": "^0.2.4",
+    "@stdlib/math-base-special-ldexp": "^0.2.5",
     "@stdlib/math-base-special-sqrt": "^0.2.3",
     "@stdlib/number-float64-base-get-high-word": "^0.2.3",
     "@stdlib/number-float64-base-set-high-word": "^0.2.3",
@@ -65,7 +65,7 @@
     "@stdlib/utils-library-manifest": "^0.2.4"
   },
   "devDependencies": {
-    "@stdlib/console-log-each-map": "^0.1.0",
+    "@stdlib/console-log-each-map": "^0.1.1",
     "@stdlib/constants-float64-eps": "^0.2.3",
     "@stdlib/constants-float64-max-safe-integer": "^0.2.3",
     "@stdlib/fs-read-file": "^0.2.3",
@@ -73,11 +73,11 @@
     "@stdlib/math-base-assert-is-negative-zero": "^0.2.3",
     "@stdlib/math-base-assert-is-positive-zero": "^0.2.3",
     "@stdlib/math-base-special-round": "^0.3.1",
-    "@stdlib/math-base-tools-evalpoly-compile": "^0.3.0",
+    "@stdlib/math-base-tools-evalpoly-compile": "^0.3.1",
     "@stdlib/math-base-tools-evalpoly-compile-c": "^0.2.2",
-    "@stdlib/random-array-discrete-uniform": "^0.2.1",
-    "@stdlib/random-array-uniform": "^0.2.1",
-    "@stdlib/random-base-randu": "^0.2.2",
+    "@stdlib/random-array-discrete-uniform": "^0.2.2",
+    "@stdlib/random-array-uniform": "^0.2.2",
+    "@stdlib/random-base-randu": "^0.2.3",
     "@stdlib/string-format": "^0.2.3",
     "@stdlib/string-substring-after": "^0.2.3",
     "@stdlib/string-substring-before": "^0.2.3",
@@ -86,7 +86,7 @@
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
